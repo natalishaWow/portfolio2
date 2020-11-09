@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	background-color: #fff;
+	font: 16px/36px Myriad Pro, Arial, sans-serif;
+}
+
+.wrapper {
+	width: 1200px;
+	margin: auto;
+	padding: 0 20px;
+}
+
+.clearfix::before,
+.clearfix::after {
+	content: '';
+	display: table;
+}
+
+.clearfix::after {
+	clear: both;
+}
+
+.img{
+	width: 600px;
+	height: 400px;
+	border-radius: 8px;
+	border: 1px solid #f55423;
+	background-color: #faa991;
+}
+
+h3{
+	font-size: 24px;
+}
+
+aside p{
+	margin: 0;
+}
+
+h1{
+	margin-bottom: 48px; 
+	margin-top: 11px; 
+	font-size: 36px;
+}
+
+h1, h3{
+	text-align: center;
+	color: #343460;
+	font-family: "Arial - Bold MT";
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.logo {
+	margin-right: 372px; 
+	float: left;
+	margin-top: 27px; 
+	margin-bottom: 27px; 
+	display: inline-block;
+	width: 270px;
+	height: 46px;
+	border-radius: 0;
+	border: 1px solid #f55423;
+	background-color: #faa991;
+}
+
+.nav {
+	float: right;
+}
+
+.menu {
+	list-style: none;
+	padding: 0;
+	margin-top: 27px; 
+	margin-bottom: 27px;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.menu li:not(:last-child){
+	padding-right: 25px;
+}
+
+.menu a {
+	color: #f55423;
+	font-family: "Arial MT";
+	font-size: 36px;
+	font-weight: 400;
+	line-height: 46px;
+	text-decoration: none;
+}
+
+#tr{
+	font-size: 24px;
+}
+
+
+header{
+	border-bottom: 2px solid #979797;
+	margin-bottom: 60px; 
+}
+
+.lis{
+	width: 270px;
+	height: 180px;
+}
+
+p{
+	color: #343460;
+	font-family: "Arial MT";
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.ban{
+	float: left;
+	margin-right: 40px; 
+}
+
+
+.list {
+	padding: 55px 0;
+}
+
+.item {
+	padding-right: 40px;
+	display: inline-block;
+	vertical-align: top;
+	width: 25%;
+	margin-bottom: 53px 
+}
+
+.item p{
+	margin-bottom: 0; 
+}
+
+.footer {
+	color: #909090;
+	border-top: 2px solid #979797;
+}
+
+.footer .nav{
+	float: left;
+	padding-right: 150px;
+}
+
+.footer .logo{
+	float: right;
+	margin-right: 0; 
+}
